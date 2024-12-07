@@ -1,8 +1,8 @@
-kind: Pod     #POD creating
+kind: Pod     
 apiVersion: v1
 metadata:
   name: nginx
-  labels:                 #service to pod communication
+  labels:               
     name: frontend
     project: expense
     component: frontend
